@@ -7,6 +7,14 @@ public class Main {
 
 
         Main.printAboutMe();
+
+        //String commonName, String family, String color, String shape, int maxFeetWidth
+        Plant favorite = new Plant();
+
+        favorite.setCommonName("hibiscus");
+        favorite.setMaxFeetWidth(5);
+
+        System.out.println("My favorite plant is a " + favorite);
     }
 
     public static void printAboutMe() {
