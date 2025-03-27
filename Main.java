@@ -1,3 +1,4 @@
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to CS 112!");
@@ -15,6 +16,9 @@ public class Main {
         favorite.setMaxFeetWidth(5);
 
         System.out.println("My favorite plant is a " + favorite);
+
+        //comment
+        System.out.println("changed");
     }
 
     public static void printAboutMe() {
@@ -26,4 +30,6 @@ public class Main {
 
         return myLikes.contains(topic);
     }
+
+
 }
